@@ -167,8 +167,8 @@
                     "children": [
                         {
                             "content": `<pre data-lines="42,45"><code> * Definição Clara: Organização e funcionamento dos partidos políticos.
- * Exemplo Prático: Registro de partidos no TSE.
- * Dica Valiosa: Conheça os principais partidos e suas ideologias.
+ * Exemplo Prático: Filiação partidária.
+ * Dica Valiosa: Conheça as leis sobre financiamento de campanhas eleitorais.
 </code></pre>`,
                             "children": [],
                             "payload": { "lines": "42,45" }
@@ -180,15 +180,15 @@
             "payload": { "lines": "40,41" }
         },
         {
-            "content": "Garantias Constitucionais Individuais",
+            "content": "Proteção aos Direitos Autorais",
             "children": [
                 {
-                    "content": "Habeas Corpus - Breve Descrição",
+                    "content": "Lei de Direitos Autorais - Breve Descrição",
                     "children": [
                         {
-                            "content": `<pre data-lines="47,50"><code> * Definição Clara: Garantia contra prisões ilegais.
- * Exemplo Prático: HC em caso de prisão por erro judicial.
- * Dica Valiosa: Estude casos relevantes.
+                            "content": `<pre data-lines="47,50"><code> * Definição Clara: Proteção legal às criações artísticas e intelectuais.
+ * Exemplo Prático: Registro de obras literárias.
+ * Dica Valiosa: Saiba como funciona o registro de patentes.
 </code></pre>`,
                             "children": [],
                             "payload": { "lines": "47,50" }
@@ -202,3 +202,522 @@
     ],
     "payload": { "lines": "0,1" }
 });
+
+((i, L, f, o) => {
+    const w = i();
+    window.mm = w.Markmap.create("svg#mindmap", (L || w.deriveOptions)(o), f);
+})(() => window.markmap, null, {
+    "content": "Princípios Constitucionais do Direito Penal",
+    "children": [
+        {
+            "content": "Princípio da Legalidade",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="3,8"><code> * Definição Clara: Princípio que estabelece que não há crime sem lei anterior que o defina.
+ * Exemplo Prático: Tipificação penal.
+ * Dica Valiosa: Relacione com a segurança jurídica.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "3,8" }
+                        }
+                    ],
+                    "payload": { "lines": "2,3" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="9,12"><code> * Definição Clara: Base jurídica que fundamenta o princípio da legalidade.
+ * Exemplo Prático: CF/88 - Art. 5º, XXXIX.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "9,12" }
+                        }
+                    ],
+                    "payload": { "lines": "8,9" }
+                }
+            ],
+            "payload": { "lines": "1,2" }
+        },
+        {
+            "content": "Princípio da Anterioridade",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="14,17"><code> * Definição Clara: Princípio que estabelece que a lei penal deve ser anterior ao fato criminoso.
+ * Exemplo Prático: Retroatividade da lei penal.
+ * Dica Valiosa: Conheça os casos de aplicação do princípio.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "14,17" }
+                        }
+                    ],
+                    "payload": { "lines": "13,14" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="18,21"><code> * Definição Clara: Base jurídica que fundamenta o princípio da anterioridade.
+ * Exemplo Prático: CF/88 - Art. 5º, XXXIX.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "18,21" }
+                        }
+                    ],
+                    "payload": { "lines": "17,18" }
+                }
+            ],
+            "payload": { "lines": "12,13" }
+        },
+        {
+            "content": "Princípio da Irretroatividade",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="23,26"><code> * Definição Clara: Princípio que estabelece que a lei penal não retroagirá, salvo para beneficiar o réu.
+ * Exemplo Prático: Aplicação da pena.
+ * Dica Valiosa: Conheça as exceções à irretroatividade.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "23,26" }
+                        }
+                    ],
+                    "payload": { "lines": "22,23" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="27,30"><code> * Definição Clara: Base jurídica que fundamenta o princípio da irretroatividade.
+ * Exemplo Prático: CF/88 - Art. 5º, XL.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "27,30" }
+                        }
+                    ],
+                    "payload": { "lines": "26,27" }
+                }
+            ],
+            "payload": { "lines": "21,22" }
+        },
+        {
+            "content": "Princípio da Individualização da Pena",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="32,35"><code> * Definição Clara: Princípio que estabelece que a pena deve ser proporcional ao crime cometido.
+ * Exemplo Prático: Fixação da pena.
+ * Dica Valiosa: Conheça os critérios de dosimetria da pena.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "32,35" }
+                        }
+                    ],
+                    "payload": { "lines": "31,32" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="37,40"><code> * Definição Clara: Base jurídica que fundamenta o princípio da individualização da pena.
+ * Exemplo Prático: CF/88 - Art. 5º, XLVI.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "37,40" }
+                        }
+                    ],
+                    "payload": { "lines": "36,37" }
+                }
+            ],
+            "payload": { "lines": "30,31" }
+        },
+        {
+            "content": "Princípio da Presunção de Inocência",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="42,45"><code> * Definição Clara: Princípio que estabelece que todo indivíduo é considerado inocente até que se prove o contrário.
+ * Exemplo Prático: Aplicação do princípio em processos judiciais.
+ * Dica Valiosa: Conheça os julgados do STF sobre a matéria.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "42,45" }
+                        }
+                    ],
+                    "payload": { "lines": "41,42" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="47,50"><code> * Definição Clara: Base jurídica que fundamenta o princípio da presunção de inocência.
+ * Exemplo Prático: CF/88 - Art. 5º, LVII.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "47,50" }
+                        }
+                    ],
+                    "payload": { "lines": "46,47" }
+                }
+            ],
+            "payload": { "lines": "40,41" }
+        },
+        {
+            "content": "Princípio da Proporcionalidade da Pena",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="52,55"><code> * Definição Clara: Princípio que estabelece que a pena deve ser proporcional à gravidade do crime.
+ * Exemplo Prático: Análise da culpabilidade do agente.
+ * Dica Valiosa: Conheça as diretrizes do STF sobre a matéria.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "52,55" }
+                        }
+                    ],
+                    "payload": { "lines": "51,52" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="57,60"><code> * Definição Clara: Base jurídica que fundamenta o princípio da proporcionalidade da pena.
+ * Exemplo Prático: CF/88 - Art. 5º, XLVI.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "57,60" }
+                        }
+                    ],
+                    "payload": { "lines": "56,57" }
+                }
+            ],
+            "payload": { "lines": "50,51" }
+        },
+        {
+            "content": "Princípio da Humanidade da Pena",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="62,65"><code> * Definição Clara: Princípio que estabelece que a pena não deve ser cruel, degradante ou desumana.
+ * Exemplo Prático: Análise das condições carcerárias.
+ * Dica Valiosa: Conheça os direitos dos presos.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "62,65" }
+                        }
+                    ],
+                    "payload": { "lines": "61,62" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="67,70"><code> * Definição Clara: Base jurídica que fundamenta o princípio da humanidade da pena.
+ * Exemplo Prático: CF/88 - Art. 5º, XLVII.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "67,70" }
+                        }
+                    ],
+                    "payload": { "lines": "66,67" }
+                }
+            ],
+            "payload": { "lines": "60,61" }
+        },
+        {
+            "content": "Princípio da Individualização da Pena",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="72,75"><code> * Definição Clara: Princípio que estabelece que a pena deve ser proporcional ao crime cometido.
+ * Exemplo Prático: Fixação da pena.
+ * Dica Valiosa: Conheça os critérios de dosimetria da pena.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "72,75" }
+                        }
+                    ],
+                    "payload": { "lines": "71,72" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="77,80"><code> * Definição Clara: Base jurídica que fundamenta o princípio da individualização da pena.
+ * Exemplo Prático: CF/88 - Art. 5º, XLVI.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "77,80" }
+                        }
+                    ],
+                    "payload": { "lines": "76,77" }
+                }
+            ],
+            "payload": { "lines": "70,71" }
+        },
+        {
+            "content": "Princípio da Adequação Social",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="82,85"><code> * Definição Clara: Princípio que estabelece que a pena deve ser adequada aos valores sociais e culturais.
+ * Exemplo Prático: Análise da integração do réu na sociedade.
+ * Dica Valiosa: Conheça os critérios de aplicação do princípio.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "82,85" }
+                        }
+                    ],
+                    "payload": { "lines": "81,82" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="87,90"><code> * Definição Clara: Base jurídica que fundamenta o princípio da adequação social.
+ * Exemplo Prático: CF/88 - Art. 5º, XLVI.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "87,90" }
+                        }
+                    ],
+                    "payload": { "lines": "86,87" }
+                }
+            ],
+            "payload": { "lines": "80,81" }
+        },
+        {
+            "content": "Princípio da Razoabilidade da Pena",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="92,95"><code> * Definição Clara: Princípio que estabelece que a pena não pode ser excessiva em relação ao crime cometido.
+ * Exemplo Prático: Análise da proporcionalidade da pena.
+ * Dica Valiosa: Conheça os princípios da dosimetria penal.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "92,95" }
+                        }
+                    ],
+                    "payload": { "lines": "91,92" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="97,100"><code> * Definição Clara: Base jurídica que fundamenta o princípio da razoabilidade da pena.
+ * Exemplo Prático: CF/88 - Art. 5º, XLVI.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "97,100" }
+                        }
+                    ],
+                    "payload": { "lines": "96,97" }
+                }
+            ],
+            "payload": { "lines": "90,91" }
+        },
+        {
+            "content": "Princípio da Proporcionalidade da Pena",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="102,105"><code> * Definição Clara: Princípio que estabelece que a pena deve ser proporcional à gravidade do crime.
+ * Exemplo Prático: Análise da culpabilidade do agente.
+ * Dica Valiosa: Conheça as diretrizes do STF sobre a matéria.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "102,105" }
+                        }
+                    ],
+                    "payload": { "lines": "101,102" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="107,110"><code> * Definição Clara: Base jurídica que fundamenta o princípio da proporcionalidade da pena.
+ * Exemplo Prático: CF/88 - Art. 5º, XLVI.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "107,110" }
+                        }
+                    ],
+                    "payload": { "lines": "106,107" }
+                }
+            ],
+            "payload": { "lines": "100,101" }
+        },
+        {
+            "content": "Princípio da Humanidade da Pena",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="112,115"><code> * Definição Clara: Princípio que estabelece que a pena não deve ser cruel, degradante ou desumana.
+ * Exemplo Prático: Análise das condições carcerárias.
+ * Dica Valiosa: Conheça os direitos dos presos.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "112,115" }
+                        }
+                    ],
+                    "payload": { "lines": "111,112" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="117,120"><code> * Definição Clara: Base jurídica que fundamenta o princípio da humanidade da pena.
+ * Exemplo Prático: CF/88 - Art. 5º, XLVII.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "117,120" }
+                        }
+                    ],
+                    "payload": { "lines": "116,117" }
+                }
+            ],
+            "payload": { "lines": "110,111" }
+        },
+        {
+            "content": "Princípio da Individualização da Pena",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="122,125"><code> * Definição Clara: Princípio que estabelece que a pena deve ser proporcional ao crime cometido.
+ * Exemplo Prático: Fixação da pena.
+ * Dica Valiosa: Conheça os critérios de dosimetria da pena.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "122,125" }
+                        }
+                    ],
+                    "payload": { "lines": "121,122" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="127,130"><code> * Definição Clara: Base jurídica que fundamenta o princípio da individualização da pena.
+ * Exemplo Prático: CF/88 - Art. 5º, XLVI.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "127,130" }
+                        }
+                    ],
+                    "payload": { "lines": "126,127" }
+                }
+            ],
+            "payload": { "lines": "120,121" }
+        },
+        {
+            "content": "Princípio da Adequação Social",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="132,135"><code> * Definição Clara: Princípio que estabelece que a pena deve ser adequada aos valores sociais e culturais.
+ * Exemplo Prático: Análise da integração do réu na sociedade.
+ * Dica Valiosa: Conheça os critérios de aplicação do princípio.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "132,135" }
+                        }
+                    ],
+                    "payload": { "lines": "131,132" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="137,140"><code> * Definição Clara: Base jurídica que fundamenta o princípio da adequação social.
+ * Exemplo Prático: CF/88 - Art. 5º, XLVI.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "137,140" }
+                        }
+                    ],
+                    "payload": { "lines": "136,137" }
+                }
+            ],
+            "payload": { "lines": "130,131" }
+        },
+        {
+            "content": "Princípio da Razoabilidade da Pena",
+            "children": [
+                {
+                    "content": "Definição",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="142,145"><code> * Definição Clara: Princípio que estabelece que a pena não pode ser excessiva em relação ao crime cometido.
+ * Exemplo Prático: Análise da proporcionalidade da pena.
+ * Dica Valiosa: Conheça os princípios da dosimetria penal.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "142,145" }
+                        }
+                    ],
+                    "payload": { "lines": "141,142" }
+                },
+                {
+                    "content": "Fundamento Constitucional",
+                    "children": [
+                        {
+                            "content": `<pre data-lines="147,150"><code> * Definição Clara: Base jurídica que fundamenta o princípio da razoabilidade da pena.
+ * Exemplo Prático: CF/88 - Art. 5º, XLVI.
+ * Dica Valiosa: Estude os limites da interpretação judicial.
+</code></pre>`,
+                            "children": [],
+                            "payload": { "lines": "147,150" }
+                        }
+                    ],
+                    "payload": { "lines": "146,147" }
+                }
+            ],
+            "payload": { "lines": "140,141" }
+        }
+    ]
+}</code></pre>
