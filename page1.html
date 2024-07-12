@@ -1,20 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Direitos e Garantias Fundamentais</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Direitos e Garantias Fundamentais</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
+<header>
     <h1>Direitos e Garantias Fundamentais</h1>
+    <nav>
+        <ul>
+            <li><a href="principal.html">Página Principal</a></li>
+            <li><a href="Direitos e Garantias Fundamentais.html">Direitos e Garantias Fundamentais</a></li>
+            <li><a href="Poder Executivo.html">Poder Executivo</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Conteúdo sobre Direitos e Garantias Fundamentais</h2>
     <svg id="mindmap"></svg>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script>
-  <script src="script.js"></script>
+</main>
+<script src="scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script>
+<script>
+    (() => {
+        const { markmap: Markmap, mm: h } = window;
+        const M = new Markmap.Toolbar;
+        M.attach(h);
+        const re = M.render();
+        re.setAttribute("style", "position:absolute;bottom:20px;right:20px");
+        document.body.append(re)
+    })();
+
+    (() => {
+        const { markmap: Markmap, mm: h } = window;
+        window.mm = Markmap.create("svg#mindmap", h, {
+            content: "Direitos e Garantias Fundamentais",
+            children: [
+                {
+                    content: "Direitos Individuais - Breve Descrição",
+                    children: [
+                        {
+                            content: "<pre data-lines=\"3,8\"><code> * Definição Clara: Direitos que garantem a proteção individual do cidadão.\n * Exemplo Prático: Liberdade de expressão.\n * Dica Valiosa: Sempre relacionar direitos individuais com a dignidade da pessoa humana.\n * Jurisprudência Relevante: HC 82.424/RS - Liberdade de Expressão.\n * Questão de Concurso: \"A liberdade de expressão é um direito individual garantido pela Constituição. Explique suas limitações.\"\n</code></pre>",
+                            children: [],
+                            payload: { lines: "3,8" }
+                        }
+                    ],
+                    payload: { lines: "2,3" }
+                },
+                {
+                    content: "Deveres Coletivos - Breve Descrição",
+                    children: [
+                        {
+                            content: "<pre data-lines=\"9,12\"><code> * Definição Clara: Obrigações dos cidadãos em benefício da coletividade.\n * Exemplo Prático: Respeito ao meio ambiente.\n * Dica Valiosa: Conheça exemplos práticos para contextualizar os deveres.\n</code></pre>",
+                            children: [],
+                            payload: { lines: "9,12" }
+                        }
+                    ],
+                    payload: { lines: "8,9" }
+                }
+            ],
+            payload: { lines: "1,2" }
+        })
+    })();
+</script>
 </body>
 </html>
