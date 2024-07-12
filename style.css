@@ -1,33 +1,9 @@
-/* Estilos gerais para navegação */
-nav {
-  background-color: #f0f0f0;
-  padding: 10px;
-  margin-bottom: 20px;
+* {
+    margin: 0;
+    padding: 0;
 }
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  color: #555;
-}
-
-/* Estilos específicos para o mindmap */
-svg {
-  width: 100%;
-  height: 100vh;
-  margin-top: 20px;
+#mindmap {
+    display: block;
+    width: 100vw;
+    height: 100vh;
 }
